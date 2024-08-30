@@ -29,7 +29,7 @@ The **Movie Application** project is a React-based web application designed to d
 - [Movie List Component](./src/Movies/MovieList.js)
 - [Movie Details Component](./src/Movies/Movie.js)
 - [Saved List Component](./src/Movies/SavedList.js)
-- [API Endpoint Documentation](http://localhost:5001/api/movies) (Ensure backend server is running)
+
 
 ## Contact
 
