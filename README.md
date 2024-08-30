@@ -36,4 +36,41 @@ To get started with this project, follow these steps:
    ```bash
    git clone https://github.com/your-username/react-movie-app.git
    cd react-movie-app
+Install Dependencies
 
+bash
+Copy code
+npm install
+Start the Application
+
+bash
+Copy code
+npm start
+This command will start the React development server, and the application will be available at http://localhost:3000.
+
+Usage
+Home Page: Displays a list of movies.
+Movie Details Page: Navigate to /movies/:id to view details about a specific movie.
+API Endpoints
+The application fetches movie data from the following API endpoint:
+
+GET http://localhost:5001/api/movies
+
+Ensure your backend server is running and properly configured to handle this endpoint.
+
+Stretch Goals
+Implement functionality to add movies to a saved list and prevent saving duplicates.
+Improve UI/UX with additional styling and user interface enhancements.
+Contributing
+We welcome contributions to this project! If you have suggestions, improvements, or bug fixes, please:
+
+Fork the repository.
+Create a new branch (git checkout -b feature/YourFeature).
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature/YourFeature).
+Open a Pull Request.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+For questions or further information, please contact [Your Name] at [your.email@example.com].
